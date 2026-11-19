@@ -146,6 +146,10 @@ Possible future enhancements (not currently included as implemented features):
 
 **pramodstd** — [GitHub profile](https://github.com/pramodstd)
 
+## 📄 Project Documentation
+You can view or download the complete project report here:
+- [Project Documentation (PDF)](docs/App_Document.pdf)
+
 ## License
 
 No license file or license declaration is currently included in this repository. Add a `LICENSE` file and update this section and the badge above once a license has been chosen. Until then, do not assume that the project is available for reuse under a particular open-source license.
