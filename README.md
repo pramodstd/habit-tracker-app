@@ -6,8 +6,7 @@ Build healthier routines, check in with your mood, and keep your wellness progre
 
 [![Platform](https://img.shields.io/badge/Platform-Android-3DDC84?logo=android&logoColor=white)](https://developer.android.com/)
 [![Language](https://img.shields.io/badge/Language-Kotlin-7F52FF?logo=kotlin&logoColor=white)](https://kotlinlang.org/)
-[![Build](https://img.shields.io/badge/CI-not%20configured-lightgrey)](#installation-build-and-run)
-[![License](https://img.shields.io/badge/License-not%20specified-lightgrey)](#license)
+
 
 </div>
 
