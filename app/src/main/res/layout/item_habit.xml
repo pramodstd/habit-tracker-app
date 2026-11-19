@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="12dp"
+    app:cardCornerRadius="16dp"
+    app:cardElevation="2dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="16dp">
+
+        <TextView
+            android:id="@+id/tvHabitIcon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="💧"
+            android:textSize="32sp"
+            android:layout_marginEnd="16dp"/>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/tvHabitName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Drink Water"
+                android:textSize="16sp"
+                android:textColor="@color/text_primary"
+                android:fontFamily="sans-serif-medium"/>
+
+            <TextView
+                android:id="@+id/tvHabitCategory"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Health"
+                android:textSize="12sp"
+                android:textColor="@color/text_secondary"
+                android:layout_marginBottom="8dp"/>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="4dp">
+
+                <TextView
+                    android:id="@+id/tvHabitStreak"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="🔥 3 day streak"
+                    android:textSize="12sp"
+                    android:textColor="@color/primary_green"/>
+
+                <TextView
+                    android:id="@+id/tvHabitProgress"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentEnd="true"
+                    android:text="5 / 8 glasses"
+                    android:textSize="12sp"
+                    android:textColor="@color/text_primary"
+                    android:fontFamily="sans-serif-medium"/>
+            </RelativeLayout>
+
+            <ProgressBar
+                android:id="@+id/habitProgressBar"
+                style="@style/CustomProgressBar"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:max="100"
+                android:progress="63"
+                android:layout_marginBottom="8dp"/>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/tvHabitPercent"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="63% complete"
+                    android:textSize="12sp"
+                    android:textColor="@color/text_secondary"/>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentEnd="true"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/btnDecrement"
+                        android:layout_width="32dp"
+                        android:layout_height="32dp"
+                        android:text="-"
+                        android:textSize="18sp"
+                        android:gravity="center"
+                        android:background="@drawable/button_round"
+                        android:textColor="@color/primary_green"
+                        android:clickable="true"
+                        android:focusable="true"
+                        android:layout_marginEnd="8dp"/>
+
+                    <TextView
+                        android:id="@+id/btnIncrement"
+                        android:layout_width="32dp"
+                        android:layout_height="32dp"
+                        android:text="+"
+                        android:textSize="18sp"
+                        android:gravity="center"
+                        android:background="@drawable/button_round_filled"
+                        android:textColor="@color/white"
+                        android:clickable="true"
+                        android:focusable="true"/>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:layout_marginTop="8dp"
+                    android:gravity="end">
+
+                    <ImageButton
+                        android:id="@+id/btnEditHabit"
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:background="@android:color/transparent"
+                        android:src="@android:drawable/ic_menu_edit"
+                        android:contentDescription="@string/edit"/>
+
+                    <ImageButton
+                        android:id="@+id/btnDeleteHabit"
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:background="@android:color/transparent"
+                        android:src="@android:drawable/ic_menu_delete"
+                        android:contentDescription="@string/delete"/>
+                </LinearLayout>
+            </RelativeLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>

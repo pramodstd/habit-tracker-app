@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <EditText
+            android:id="@+id/etHabitName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/habit_name"/>
+
+        <EditText
+            android:id="@+id/etHabitCategory"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/category_optional"/>
+
+        <EditText
+            android:id="@+id/etHabitIcon"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/icon_emoji_optional"
+            android:text="✅"/>
+
+        <EditText
+            android:id="@+id/etHabitGoal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="number"
+            android:hint="@string/daily_goal_number"/>
+
+        <EditText
+            android:id="@+id/etHabitUnit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/unit_e_g_times_ml_steps"
+            android:text="times"/>
+    </LinearLayout>
+</ScrollView>

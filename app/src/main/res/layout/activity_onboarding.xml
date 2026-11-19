@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background_white">
+
+    <TextView
+        android:id="@+id/btnSkip"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/skip"
+        android:textColor="@color/text_secondary"
+        android:textSize="16sp"
+        android:fontFamily="@font/inter_medium"
+        android:padding="16dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentTop="true"
+        android:clickable="true"
+        android:focusable="true"/>
+
+    <androidx.viewpager2.widget.ViewPager2
+        android:id="@+id/viewPager"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@id/bottomLayout"
+        android:layout_below="@id/btnSkip"/>
+
+    <LinearLayout
+        android:id="@+id/bottomLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:orientation="vertical"
+        android:padding="22dp">
+
+        <LinearLayout
+            android:id="@+id/dotsLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center"
+            android:layout_marginBottom="24dp"/>
+
+        <Button
+            android:id="@+id/btnNext"
+            style="@style/ButtonPrimary"
+            android:layout_width="match_parent"
+            android:layout_height="56dp"
+            android:text="@string/next" />
+    </LinearLayout>
+
+</RelativeLayout>

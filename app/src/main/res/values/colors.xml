@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Primary Colors -->
+    <color name="primary_green">#4CAF50</color>
+    <color name="primary_green_light">#E8F5E9</color>
+    <color name="primary_green_dark">#388E3C</color>
+    
+    <!-- Secondary Colors -->
+    <color name="accent_blue">#5B9EF8</color>
+    <color name="accent_blue_light">#E3F2FD</color>
+    
+    <!-- Background Colors -->
+    <color name="background_white">#FFFFFF</color>
+    <color name="background_light">#F5F5F5</color>
+    <color name="background_card">#FAFAFA</color>
+    
+    <!-- Text Colors -->
+    <color name="text_primary">#212121</color>
+    <color name="text_secondary">#757575</color>
+    <color name="text_hint">#9E9E9E</color>
+    
+    <!-- Status Colors -->
+    <color name="mood_excellent">#4CAF50</color>
+    <color name="mood_good">#8BC34A</color>
+    <color name="mood_okay">#FFC107</color>
+    <color name="mood_poor">#FF9800</color>
+    <color name="mood_bad">#F44336</color>
+    
+    <!-- Navigation Colors -->
+    <color name="nav_selected">#4CAF50</color>
+    <color name="nav_unselected">#9E9E9E</color>
+    
+    <!-- Other -->
+    <color name="white">#FFFFFF</color>
+    <color name="black">#000000</color>
+    <color name="transparent">#00000000</color>
+    <color name="divider">#E0E0E0</color>
+
+    <color name="colorPrimary">#6200EE</color>
+    <color name="colorPrimaryDark">#3700B3</color>
+    <color name="colorAccent">#03DAC5</color>
+
+    <!-- Additional colors -->
+    <color name="colorBackground">#FFFFFF</color>
+    <color name="colorSurface">#FFFFFF</color>
+    <color name="colorError">#B00020</color>
+
+    <!-- Text colors -->
+    <color name="colorTextPrimary">#000000</color>
+    <color name="colorTextSecondary">#757575</color>
+
+    <!-- Mood colors -->
+    <color name="moodExcellent">#4CAF50</color>
+    <color name="moodGood">#8BC34A</color>
+    <color name="moodOkay">#FFC107</color>
+    <color name="moodPoor">#FF9800</color>
+    <color name="moodBad">#F44336</color>
+</resources>
